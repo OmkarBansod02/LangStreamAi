@@ -31,7 +31,7 @@ const Home: React.FC = () => {
     "German",
     "Chinese",
   ]);
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("Hindi");
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("German");
 
   const targetText = useTranslate(sourceText, selectedLanguage);
 
