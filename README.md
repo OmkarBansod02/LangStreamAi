@@ -75,7 +75,7 @@ npm install
 Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
-GEMINI_API_KEY=your-openai-api-key
+GEMINI_API_KEY=your-gemini-api-key
 ```
 
 
