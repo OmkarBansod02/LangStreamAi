@@ -13,7 +13,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Built with the latest Next.js and TypeScript, LangStream is an advanced voice translation tool. It allows users to speak into the microphone, translate the spoken text to another language, and playback the translation. This project is perfect for those looking to learn how to integrate speech recognition and translation APIs into a Next.js application.
+Built with the latest Next.js and TypeScript, LangStream is an advanced voice translation tool. It allows users to speak into the microphone, translate the spoken text to another language, and playback the translation. 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -27,7 +27,7 @@ Built with the latest Next.js and TypeScript, LangStream is an advanced voice tr
 
 👉 **Speech Recognition**: Converts spoken words into text using the Web Speech API.
 
-👉 **Text Translation**: Translates the recognized text into a selected target language using OpenAI's GPT-4 model.
+👉 **Text Translation**: Translates the recognized text into a selected target language using Google Gemini/OpenAI's GPT-4 model.
 
 👉 **Audio Playback**: Converts translated text back into speech using the Web Speech API's speech synthesis.
 
