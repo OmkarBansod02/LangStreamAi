@@ -65,6 +65,14 @@ const Home: React.FC = () => {
     setTimeout(() => setCopied(false), 2000);
   };
 
+  const handleLike = () => {
+    // Implement like logic
+  };
+
+  const handleDislike = () => {
+    // Implement dislike logic
+  };
+
   const handleFavorite = () => {
     setFavorite(!favorite);
     if (!favorite) {
@@ -150,8 +158,8 @@ const Home: React.FC = () => {
                       {copied && (
                         <span className="text-xs text-green-500">Copied!</span>
                       )}
-                      <IconThumbUp size={22}  />
-                      <IconThumbDown size={22} />
+                      <IconThumbUp size={22} onClick={handleLike} />
+                      <IconThumbDown size={22} onClick={handleDislike} />
                       <IconStar
                         size={22}
                         onClick={handleFavorite}
