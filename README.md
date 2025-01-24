@@ -55,8 +55,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/mendsalbert/lingua-speak.git
-cd linguaspeak
+git clone https://github.com/OmkarBansod02/LangStreamAi.git
+cd lang-stream-ai
 ```
 
 **Installation**
@@ -72,10 +72,9 @@ npm install
 Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
-NEXT_PUBLIC_API_KEY=your-openai-api-key
+GEMINI_API_KEY=your-openai-api-key
 ```
 
-Replace the placeholder values with your actual OpenAI credentials. You can obtain these credentials by signing up on the [OpenAI website](https://openai.com/).
 
 **Running the Project**
 
