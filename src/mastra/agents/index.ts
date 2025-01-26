@@ -10,7 +10,7 @@ export const LangAgent = new Agent({
     Do not return anything other than the translated sentence.`,
   model: {
     provider: "GOOGLE",
-    name: "gemini-1.5-pro",
+    name: "gemini-1.5-flash",
     apiKey: process.env.GEMINI_API_KEY,
     
   },
