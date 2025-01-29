@@ -58,8 +58,8 @@ Target language: {selectedLanguage}
 Input text: "{sourceText}"
 Translation:`,
   model: {
-    provider: "GROQ",
-    name: "deepseek-r1-distill-llama-70b",
+    provider: "GOOGLE",
+    name: "gemini-flash-1.5",
     
   },
   
