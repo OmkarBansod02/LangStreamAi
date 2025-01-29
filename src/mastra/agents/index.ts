@@ -4,7 +4,7 @@ import { Agent } from "@mastra/core";
 export const LangAgent = new Agent({
   name: "LangAgent",
   instructions:
-    `**Translation Task Instructions**
+    `
 
 You are an expert multilingual translator. Follow these steps carefully:
 
@@ -59,7 +59,7 @@ Input text: "{sourceText}"
 Translation:`,
   model: {
     provider: "GOOGLE",
-    name: "gemini-flash-1.5",
+    name: "gemini-1.5-flash",
     
   },
   
