@@ -60,6 +60,7 @@ Translation:`,
   model: {
     provider: "GOOGLE",
     name: "gemini-1.5-flash",
+    apiKey: process.env.GEMINI_API_KEY,
     
   },
   
