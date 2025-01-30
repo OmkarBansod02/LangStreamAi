@@ -19,7 +19,8 @@ Built with the latest Next.js and TypeScript, LangStream is an advanced voice tr
 
 - Next.js
 - TypeScript
-- Google Gemini API
+- Google Gemini API 
+- Mastra.ai [Typescript Ai Framework]
 - React Speech Recognition
 - Tailwind CSS
 
